@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>محفظة الأعمال</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body{
+
+            background-color: rgb(0, 60, 255);
+           
+        }
+        
+
+    </style>
+
+</head>
+<body>
+    <!-- الصفحة الرئيسية -->
+    <header>
+        <div class="container">
+            <h1 style="color: black;">مرحبًا بك في محفظة الأعمال</h1>
+            <p>نموذج لموقع يعرض نبذة عن العمل وخدمات التواصل.</p>
+            <a href="#about" class="btn">عن الموقع</a>
+        </div>
+    </header>
+
+    <!-- صفحة "عني" -->
+    <section id="about">
+        <div class="container">
+            <h2>عني</h2>
+            <p>هذا الموقع هو نموذج لمحفظة أعمال بسيطة يعرض نبذة عن العمل والخدمات التي يمكن تقديمها. يمكنك التواصل معي من خلال نموذج الاتصال أدناه.</p>
+        </div>
+    </section>
+
+    <!-- صفحة تواصل -->
+    <section id="contact">
+        <div class="container">
+            <h2>تواصل معنا</h2>
+            <form action="#" method="POST">
+                <label for="name">الاسم:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">البريد الإلكتروني:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">الرسالة:</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <button type="submit" class="btn">إرسال</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- الفوتر -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 محفظة الأعمال. جميع الحقوق محفوظة.</p>
+        </div>
+    </footer>
+</body>
+</html>
